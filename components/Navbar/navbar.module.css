@@ -1,0 +1,67 @@
+.navbar {
+  overflow: hidden;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  z-index: 1;
+}
+
+.rosterdamResources {
+  position: relative;
+  line-height: 28px;
+  font-weight: 800;
+}
+.hexagonIcon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.button {
+  border-radius: var(--br-5xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.contact {
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+}
+.links {
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.container,
+.links,
+.navigation,
+.navigationDesktop {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.navigation {
+  justify-content: flex-start;
+  font-size: var(--paragraph-m-regular-size);
+  color: var(--neutral-gray-700);
+}
+.container,
+.navigationDesktop {
+  align-self: stretch;
+  padding: 0 var(--padding-11xl);
+  justify-content: space-between;
+}
+.navigationDesktop {
+  background-color: var(--color-white);
+  flex-direction: column;
+  padding: var(--padding-lg) 0;
+  justify-content: center;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--paragraph-m-regular);
+}

@@ -1,0 +1,132 @@
+.rosterdamResources {
+  margin: 0;
+  font-weight: 600;
+}
+.doingThingsBetter1 {
+  font-weight: 200;
+}
+.doingThingsBetter {
+  margin: 0;
+  font-size: var(--font-size-5xl);
+}
+.yourPartnerIn {
+  font-weight: 600;
+}
+.yourPartnerInTestingAndIn {
+  margin: 0;
+}
+.description,
+.heading {
+  align-self: stretch;
+  position: relative;
+  line-height: 60px;
+}
+.description {
+  font-size: var(--paragraph-l-regular-size);
+  line-height: 28px;
+  color: var(--neutral-gray-700);
+}
+.text {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.hexagonIcon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.button1 {
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+}
+.actions,
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.button {
+  border-radius: var(--br-5xs);
+  background-color: var(--color-royalblue-100);
+  padding: var(--padding-3xs) var(--padding-xl);
+  align-items: center;
+  gap: var(--gap-5xs);
+}
+.actions {
+  align-items: flex-end;
+}
+.bottom {
+  justify-content: flex-start;
+  font-size: var(--paragraph-s-regular-size);
+  color: var(--color-white);
+}
+.bottom,
+.column,
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.content {
+  align-self: stretch;
+  padding: 0 var(--padding-31xl);
+  justify-content: flex-start;
+  gap: var(--gap-45xl);
+}
+.column {
+  flex: 1;
+  padding: 0 0 var(--padding-21xl);
+  justify-content: center;
+}
+.galleryFeaturesBase {
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-3xs);
+  max-height: 100%;
+  width: 500px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.column1 {
+  flex: 1;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 var(--padding-26xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.columns,
+.container,
+.section {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.columns {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-13xl);
+}
+.container,
+.section {
+  flex-direction: column;
+  padding: var(--padding-13xl) 0;
+  align-items: flex-start;
+}
+.section {
+  align-items: center;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-gray);
+  font-family: var(--paragraph-m-regular);
+}
