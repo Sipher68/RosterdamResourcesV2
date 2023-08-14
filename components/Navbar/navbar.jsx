@@ -32,6 +32,9 @@ export default function Navbar() {
         <a className="navbar-brand fw-bold" href="#">
           Rosterdam Resources
         </a>{' '}
+        <Link className="navbar-brand fw-bold" aria-current="page" href="/">
+          Rosterdam Resources
+        </Link>{' '}
         <button
           className="navbar-toggler"
           type="button"

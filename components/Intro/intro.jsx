@@ -62,7 +62,7 @@ export default function Intro() {
     // </div>
     <div className="row m-5">
       <div className="col-sm-6 mb-3 mb-sm-0">
-        <div className="card" style={{ height: 550 }}>
+        <div className="card border-0 bg-body-tertiary" style={{ height: 550 }}>
           <div className="card-body d-flex flex-column justify-content-center">
             <h1 className="card-title text-center">Rosterdam Resources</h1>
             <h4 className="card-title fw-light text-center">
@@ -85,7 +85,7 @@ export default function Intro() {
         </div>
       </div>
       <div className="col-sm-6">
-        <div className="card" style={{ height: 550 }}>
+        <div className="card border-0" style={{ height: 550 }}>
           <div className="card-body">
             <Image
               className="card-img img-fluid"
