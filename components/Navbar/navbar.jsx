@@ -29,9 +29,9 @@ export default function Navbar() {
     // </div>
     <nav className="navbar navbar-expand-lg bg-body-secondary">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
-          Navbar
-        </a>
+        <a className="navbar-brand fw-bold" href="#">
+          Rosterdam Resources
+        </a>{' '}
         <button
           className="navbar-toggler"
           type="button"
@@ -43,24 +43,39 @@ export default function Navbar() {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav">
-            <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">
-                Home
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">
-                Features
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">
-                Pricing
-              </a>
-            </li>
-          </ul>
+        <div
+          className="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <div className="justify-content-end">
+            <ul className="navbar-nav">
+              <li className="nav-item">
+                <Link className="nav-link active" aria-current="page" href="/">
+                  Home
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" aria-current="page" href="/">
+                  About
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" aria-current="page" href="/">
+                  Services
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" aria-current="page" href="/">
+                  Contact Us
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" aria-current="page" href="/">
+                  FAQ
+                </Link>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </nav>
