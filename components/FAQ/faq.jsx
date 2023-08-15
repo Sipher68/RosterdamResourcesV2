@@ -129,7 +129,11 @@ export default function FAQ() {
               looking for. Please contact us and we'll be happy to help.
             </p>
             <div className="d-flex justify-content-center">
-              <Link className="btn btn-primary" href="/">
+              <Link
+                className="btn btn-primary d-flex align-items-center m-2"
+                href="/"
+              >
+                <Image src={EmailIcon} width={0} height={0} />
                 Send an Email
               </Link>
             </div>
