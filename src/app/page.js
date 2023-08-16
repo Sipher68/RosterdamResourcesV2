@@ -1,5 +1,3 @@
-import Image from 'next/image';
-import styles from './page.module.css';
 import LandingPage from './LandingPage/landingPage';
 import Navbar from '../../components/Navbar/navbar';
 import Footer from '../../components/Footer/footer';

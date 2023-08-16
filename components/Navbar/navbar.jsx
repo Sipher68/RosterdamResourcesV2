@@ -29,9 +29,6 @@ export default function Navbar() {
     // </div>
     <nav className="navbar navbar-expand-lg bg-body-secondary">
       <div className="container-fluid">
-        <a className="navbar-brand fw-bold" href="#">
-          Rosterdam Resources
-        </a>{' '}
         <Link className="navbar-brand fw-bold" aria-current="page" href="/">
           Rosterdam Resources
         </Link>{' '}
