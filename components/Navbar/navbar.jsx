@@ -55,7 +55,7 @@ export default function Navbar() {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" aria-current="page" href="/">
+                <Link className="nav-link" aria-current="page" href="/About">
                   About
                 </Link>
               </li>

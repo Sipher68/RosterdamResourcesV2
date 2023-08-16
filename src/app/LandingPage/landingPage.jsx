@@ -9,7 +9,7 @@ export default function LandingPage() {
       <Intro />
       <FAQ />
       {/* <ContactUs /> */}
-      <Location />
+      {/* <Location /> */}
     </div>
   );
 }
