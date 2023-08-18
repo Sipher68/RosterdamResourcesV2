@@ -1,33 +1,8 @@
-import styles from './navbar.module.css';
 import Link from 'next/link';
 
 export default function Navbar() {
   return (
-    // <div className={styles.navbar}>
-    //   <div className={styles.navigationDesktop}>
-    //     <div className={styles.container}>
-    //       <div className={styles.rosterdamResources}>Rosterdam Resources</div>
-    //       <div className={styles.navigation}>
-    //         <div className={styles.links}>
-    //           <div className={styles.button}>
-    //             <div className={styles.contact}>
-    //               <Link href="/">Home</Link>
-    //             </div>
-    //           </div>
-    //           <div className={styles.button}>
-    //             <div className={styles.contact}>
-    //               <Link href="/">About Us</Link>
-    //             </div>
-    //           </div>
-    //           <div className={styles.button}>
-    //             <div className={styles.contact}>Contact</div>
-    //           </div>
-    //         </div>
-    //       </div>
-    //     </div>
-    //   </div>
-    // </div>
-    <nav className="navbar navbar-expand-lg bg-body-secondary">
+    <nav className="navbar navbar-expand-lg bg-body-secondary sticky-top">
       <div className="container-fluid">
         <Link className="navbar-brand fw-bold" aria-current="page" href="/">
           Rosterdam Resources
@@ -60,7 +35,7 @@ export default function Navbar() {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" aria-current="page" href="/">
+                <Link className="nav-link" aria-current="page" href="/Services">
                   Services
                 </Link>
               </li>

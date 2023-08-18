@@ -1,14 +1,12 @@
-import Intro from '../../../components/Intro/intro';
+import Hero from '../../../components/Intro/hero';
 import FAQ from '../../../components/FAQ/faq';
-import ContactUs from '../../../components/ContactUs/contactUs';
 import Location from '../../../components/Location/location';
 
 export default function LandingPage() {
   return (
     <div>
-      <Intro />
+      <Hero />
       <FAQ />
-      {/* <ContactUs /> */}
       {/* <Location /> */}
     </div>
   );
